@@ -13,10 +13,14 @@ int main()
         if(max<a[i])
         {
             max=a[i];
-            b=i;
+            if(max==a[i])
+            {
+             b=i;
+
+            }
         }
     }
-    printf ("%d %d",b,max);
+    printf ("%d %d",b+1,max);
 
 }
 
