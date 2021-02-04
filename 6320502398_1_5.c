@@ -20,7 +20,7 @@ int main()
             }
         }
     }
-    printf ("%d %d",b+1,max);
+    printf ("%d %d",b,max);
 
 }
 
