@@ -1,9 +1,9 @@
 #include<Stdio.h>
 int main()
 {
-int n,i,max=0,b=0;
+int n;
 scanf("%d",&n);
-int a[n];
+int a[n],i,max,b;
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
@@ -11,9 +11,7 @@ scanf("%d",&a[i]);
 for(i=0;i<n;i++)
 {
     if(max<a[i])
-    {
      max=a[i];
-    }
     if(max==a[i])
     {
      b=i;
